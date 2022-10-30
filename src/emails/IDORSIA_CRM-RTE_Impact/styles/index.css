@@ -1,0 +1,27 @@
+/* MEDIA QUERIES */
+@media screen and (max-width: 600px) {
+  .mobile-hide {
+    display: none !important;
+  }
+  .mobile-show {
+    display: block !important;
+  }
+  .mobile-center {
+    text-align: center !important;
+  }
+  .mobile-table {
+    width: 100% !important;
+  }
+  .content-spacing{
+    width: 16px!important;
+  }
+  img.fluidImage {
+    max-width: 100%;
+    width: 100%!important;
+    height: auto !important;
+  }
+
+}
+
+/* ANDROID CENTER FIX */
+div[style*="margin: 16px 0;"] { margin: 0 !important; }

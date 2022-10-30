@@ -1,0 +1,98 @@
+@import "variables.scss";
+
+sup {
+  line-height: 9px;
+  font-size: 66%;
+  vertical-align: super;
+  mso-text-raise: 60%;
+  &.footnote {
+    line-height: 10px;
+    mso-text-raise: 30%;
+  }
+}
+
+.white{
+  color: $white;
+}
+
+.persian_rose{
+  color: $persian_rose;
+}
+
+.eggplant{
+  color: $eggplant;
+}
+
+.apricot_peach{
+  color: $apricot_peach;
+}
+
+.snuff{
+  color: $snuff;
+}
+
+.livid_brown{
+  color: $livid_brown;
+}
+
+.mine_shaft{
+  color: $mine_shaft;
+}
+
+.dove_gray{
+  color: $dove_gray;
+}
+
+.wild_sand{
+  color: $wild_sand;
+}
+
+.f_normal{
+  font-weight: 400;
+}
+
+.f_bold{
+  font-weight: 800;
+}
+
+.p-regular{
+  font-size: 16px;
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-m{
+  font-size: 24px;
+  line-height: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-xl{
+  font-size: 32px;
+  line-height: 36px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-s{
+  font-size: 12px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p-xs{
+  font-size: 10px;
+  line-height: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.georgia{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.mobile-show {
+  display: none !important;
+}
+/* for veeva select box in edit mode */
+.longTextBox select, .AE_customText select{
+  display: block;
+  max-width: 317px;
+  white-space: pre-line;
+}
